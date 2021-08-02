@@ -20,6 +20,10 @@ run application
 ```nodejs
 yarn start
 ```
+open your browser
+```bash
+http://localhost:3000
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
