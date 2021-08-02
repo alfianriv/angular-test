@@ -1,0 +1,15 @@
+<div class="h-screen w-screen flex items-center justify-center bg-blue-200">
+    <div class="w-1/4 flex flex-col bg-white p-5 gap-3">
+        <span class="text-center text-2xl font-black">LOGIN</span>
+        <div class="flex flex-col gap-1">
+            <span>Email</span>
+            <input class="border py-2 px-3" ng-model="form.email" type="text" name="" placeholder="Email">
+        </div>
+        <div class="flex flex-col gap-1">
+            <span>Password</span>
+            <input class="border py-2 px-3" ng-model="form.password" type="password" name="" placeholder="Password">
+        </div>
+        <button type="button" class="bg-blue-400 py-2 px-3 text-white font-bold" ng-click="login()">LOGIN</button>
+        <span class="text-center text-xs text-gray-400">Don't have a account? <a class="underline" href="#!/register">Register Here</a></span>
+    </div>
+</div>

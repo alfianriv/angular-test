@@ -1,0 +1,25 @@
+<div class="h-screen w-screen flex items-center justify-center bg-blue-200">
+    <div class="w-1/4 flex flex-col bg-white p-5 gap-3">
+        <span class="text-center text-2xl font-black">REGISTER</span>
+        <div class="grid grid-cols-1 gap-2">
+            <div class="w-full flex flex-col gap-1">
+                <span>Name</span>
+                <input class="border py-2 px-3" ng-model="form.name" type="text" placeholder="Name">
+            </div>
+            <div class="w-full flex flex-col gap-1">
+                <span>Email</span>
+                <input class="border py-2 px-3" ng-model="form.email" type="text" placeholder="Email">
+            </div>
+            <div class="w-full flex flex-col gap-1">
+                <span>Phone</span>
+                <input class="border py-2 px-3" ng-model="form.phone" type="text" placeholder="Phone">
+            </div>
+            <div class="w-full flex flex-col gap-1">
+                <span>Password</span>
+                <input class="border py-2 px-3" ng-model="form.password" type="password" placeholder="Password">
+            </div>
+        </div>
+        <button type="button" ng-click="register()" class="bg-blue-400 py-2 px-3 text-white font-bold">REGISTER</button>
+        <span class="text-center text-xs text-gray-400">Have a account? <a class="underline" href="#!/login">Login Here</a></span>
+    </div>
+</div>
